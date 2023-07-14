@@ -1,0 +1,19 @@
+body {
+  background-color: #3C474B;
+  width: 1000px;
+  margin: 20px auto;
+}
+
+#current {
+  border: 2px solid #C0E0DE;
+  margin: 10px;
+  padding: 5px 15px;
+  width: 800px;
+}
+
+#previous {
+  border: 4px dotted #4F7CAC;
+  margin: 15px 10px;
+  padding: 5px 15px;
+  width: 800px;
+}
