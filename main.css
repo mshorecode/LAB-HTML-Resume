@@ -8,10 +8,6 @@ body {
   margin: auto;
 }
 
-ul {
-  list-style-type: none;
-}
-
 #profile {
   display: flex;
   flex-direction: column;
@@ -62,6 +58,7 @@ section > h3 {
 }
 
 section > ul > li {
+  list-style-type: none;
   font-size: 20px;
 }
 
