@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background-color: #282828;
+  background-size: contain;
+  text-shadow: 0 0 4px #162521;
+  color: #a89984;
+  width: 870px;
+  margin: auto;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bebas Neue', sans-serif;
+  gap: 4px;
+  align-items: center;
+}
+
+#name {
+  color: #fabd2f;
+  font-size: 80px;
+  align-self: start;
+  margin: 10px 0 -9px;
+  border-bottom: 1px solid #7c6f64;
+  text-shadow: 3px 3px 3px #fb4934;
+}
+
+#contact-info {
+  color: #fe8019;
+  font-size: 20px;
+  align-self: start;
+  margin: 15px 0 0 3px;
+}
+
+#current {
+  font-family: 'Shadows Into Light', cursive;
+  border: 2px solid #83a598;
+  padding: 5px 30px;
+  width: 1000px;
+  margin: 50px 0 50px 0;
+}
+
+#previous {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  border: 4px double #076678;
+  padding: 5px 28px;
+  width: 1000px;
+  margin: 50px 0;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: -5px;
+}
+
+.date {
+  flex: 1;
+}
+
+h4 {
+  color: #b8bb26;
+  font-size: 25px;
+  margin-top: -34px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+article > header > h1 {
+  flex: 1;
+  color: #fb4934;
+  font-size: 40px;
+  margin: 0px;
+}
+
+section > h3 {
+  color: #b8bb26;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+section > ul > li {
+  list-style-type: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+time {
+  flex: 1;
+  color: #8ec07c;
+  font-size: 26px;
+  display: inline;
+}
