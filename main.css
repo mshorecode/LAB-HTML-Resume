@@ -37,7 +37,7 @@ body {
   border: 2px solid #83a598;
   padding: 5px 30px;
   width: 1000px;
-  margin: 100px 0 100px 0;
+  margin: 50px 0 50px 0;
 }
 
 #previous {
@@ -46,6 +46,16 @@ body {
   padding: 5px 28px;
   width: 1000px;
   margin: 50px 0;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: -5px;
+}
+
+.date {
+  flex: 1;
 }
 
 h4 {
@@ -63,8 +73,10 @@ a:hover {
 }
 
 article > header > h1 {
+  flex: 1;
   color: #fb4934;
   font-size: 40px;
+  margin: 0px;
 }
 
 section > h3 {
@@ -79,7 +91,9 @@ section > ul > li {
   font-weight: bold;
 }
 
-header > time {
+time {
+  flex: 1;
   color: #8ec07c;
   font-size: 26px;
+  display: inline;
 }
